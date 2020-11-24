@@ -1,0 +1,39 @@
+body {
+  background: #333;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 800px;
+  height: 100px;
+  padding-left: 10px;
+  font-size: 50px;
+}
+button {
+  width: 500px;
+  height: 100px;
+  background: rgb(49, 165, 14);
+  color: #fff;
+  font-size: 50px;
+  border: none;
+  outline: none;
+}
